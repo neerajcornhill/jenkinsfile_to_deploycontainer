@@ -5,10 +5,9 @@ pipeline{
     agent any
     stages{
 
-       //give jenkins permsision to run docker commands
-       stage('clone repo'){
+       stage('give jenkins permsision to run docker commands'){
             steps{
-                sh 'chmod 777 /var/run/docker.sock
+                sh 'chmod 777 /var/run/docker.sock'
             }
         }
 

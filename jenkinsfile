@@ -14,7 +14,7 @@ pipeline{
 
         stage('clone repo'){
             steps{
-                git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
+                git 'https://github.com/neerajcornhill/DevOpsCodeDemo.git'
             }
         }
 

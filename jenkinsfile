@@ -7,7 +7,7 @@ pipeline{
 
        stage('give jenkins permsision to run docker commands'){
             steps{
-                sh 'chmod 777 /var/run/docker.sock'
+                sh 'sudo chmod 777 /var/run/docker.sock'
             }
         }
 
